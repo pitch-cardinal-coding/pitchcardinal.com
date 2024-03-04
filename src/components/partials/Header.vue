@@ -1,5 +1,5 @@
 <template>
   <div class="text text-red-400">
-    Header
+    Header growth
   </div>
 </template>
