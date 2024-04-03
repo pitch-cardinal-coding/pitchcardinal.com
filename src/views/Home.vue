@@ -73,37 +73,70 @@
   <section class="bg-white">
     <Container>
       <div class="py-24">
-        <div class="text-center mb-24">
+        <div class="text-center mb-20">
           <h5 class="mb-4 text-brand-primary font-medium text-[16px]">
-            Services & Solutions
+            Approach
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-medium">
+          <!-- <h2 class="text-[52px] text-grey2 mb-1 font-medium">
             Delivering <i class="pt-serif-italic">value</i> across domains
           </h2>
           <p class="text-[18px] text-grey font-medium">
             Our diverse portfolio caters to businesses of all sizes, ensuring
             efficiency, scalability, and a <br />
             competitive edge.
+          </p> -->
+          <h2 class="text-[52px] text-grey2 mb-1 font-medium">
+            Our <i class="pt-serif-italic">Approach</i>
+          </h2>
+          <p class="text-[18px] text-grey font-medium">
+            we follow a six-step process to ensure we meet our clients’ <br />
+            needs and exceed their expectations
           </p>
         </div>
 
         <div class="grid grid-cols-3 gap-6">
-          <service-card />
-          <service-card />
-          <service-card />
-          <service-card />
-          <service-card />
-          <service-card />
+          <approach-card
+            v-for="(approach, index) in approachList"
+            :key="approach.title"
+            :approach="approach"
+            :number="index + 1"
+          />
         </div>
       </div>
     </Container>
   </section>
-
-    
 </template>
 
 <script setup lang="ts">
 import Container from "../components/partials/Container.vue";
-import ServiceCard from "../components/ServiceCard.vue";
+import ApproachCard from "../components/ApproachCard.vue";
+import { ref } from "vue";
+
+const approachList = ref([
+  {
+    title: "Discovery",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+  {
+    title: "Strategy",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+  {
+    title: "Concept",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+  {
+    title: "Execution",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur",
+  },
+  {
+    title: "Launch",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+  {
+    title: "Analysis",
+    desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+]);
 </script>
