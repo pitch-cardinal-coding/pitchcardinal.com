@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="bg-white mb-2 p-2 px-6 pb-0 rounded-xl border border-gray-200">
     <h2 id="accordion-flush-heading-1">
       <button
         type="button"
-        class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+        class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 gap-3"
         data-accordion-target="#accordion-flush-body-1"
         aria-expanded="true"
         aria-controls="accordion-flush-body-1"
       >
-        <span>What is Flowbite?</span>
+        <span class="text-[20px] text-grey2">What is Flowbite?</span>
         <svg
           data-accordion-icon
           class="w-3 h-3 rotate-180 shrink-0"
@@ -32,7 +32,7 @@
       class="hidden"
       aria-labelledby="accordion-flush-heading-1"
     >
-      <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+      <div class="py-5 ">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           Flowbite is an open-source library of interactive components
           built on top of Tailwind CSS including buttons, dropdowns,
