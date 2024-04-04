@@ -14,12 +14,12 @@
 
           <div class="flex justify-center gap-4">
             <button
-              class="bg-brand-primary text-white px-8 py-3 rounded-xl font-semibold"
+              class="bg-brand-primary text-white px-8 py-3 rounded-xl font-medium"
             >
               Get in touch
             </button>
             <button
-              class="bg-light-grey text-brand-black px-8 py-3 rounded-xl font-semibold"
+              class="bg-light-grey text-brand-black px-8 py-3 rounded-xl font-medium"
             >
               View works
             </button>

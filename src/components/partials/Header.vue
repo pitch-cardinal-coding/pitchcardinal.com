@@ -39,7 +39,7 @@
         </ul>
 
         <div>
-          <button class="bg-brand-primary text-white px-6 py-3 rounded-xl font-semibold">Contact</button>
+          <button class="bg-brand-primary text-white px-6 py-3 rounded-xl font-medium">Contact</button>
         </div>
       </div>
     </nav>

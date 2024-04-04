@@ -29,7 +29,6 @@
     </h2>
     <div
       id="accordion-flush-body-1"
-      class="hidden"
       aria-labelledby="accordion-flush-heading-1"
     >
       <div class="py-5 ">

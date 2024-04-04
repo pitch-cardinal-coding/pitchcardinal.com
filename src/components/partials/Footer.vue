@@ -1,10 +1,10 @@
 <template>
-  <footer class="bg-brand-black text-light-grey">
+  <footer class="bg-[#111827] text-light-grey">
     <Container class="flex gap-10 py-20">
       <div class="w-full md:w-1/2 text-center md:text-left">
         <img
           src="../../assets/images/logo.png"
-          class="max-w-[38px] mb-20 mx-auto md:mx-0"
+          class="max-w-[38px] mb-8 mx-auto md:mx-0"
           alt="LOGO"
         />
 
@@ -80,54 +80,54 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
-              PRODUCTS
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+              Portfolio
             </h3>
 
             <ul>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Courses</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Courses</nuxt-link>
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Workshop</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Workshop</nuxt-link>
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >Vue Masterclass</nuxt-link
                 >
               </li>
               <li>
-                <nuxt-link to="/" class="text-[16px]">Mastering Nuxt</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Mastering Nuxt</nuxt-link>
               </li>
             </ul>
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
               PRICING
             </h3>
 
             <ul>
               <li>
-                <nuxt-link to="/" class="text-[16px]">Plans</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Plans</nuxt-link>
               </li>
             </ul>
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
               connect with us
             </h3>
 
             <ul>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">About Us</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">About Us</nuxt-link>
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Careers</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Careers</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/" class="text-[16px]">Contact Us</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Contact Us</nuxt-link>
               </li>
             </ul>
           </div>
@@ -137,54 +137,54 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
               Events
             </h3>
 
             <ul>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Vuejs Nation</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Vuejs Nation</nuxt-link>
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Nuxt Nation</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Nuxt Nation</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/" class="text-[16px]">Vuejs Forge</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Vuejs Forge</nuxt-link>
               </li>
             </ul>
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
               Corporate
             </h3>
 
             <ul>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >Corporate Training</nuxt-link
                 >
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >Developer Recruitment</nuxt-link
                 >
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >Course Development</nuxt-link
                 >
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >On-Site Workshops</nuxt-link
                 >
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Consulting</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Consulting</nuxt-link>
               </li>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]"
+                <nuxt-link to="/" class="text-[14px]"
                   >Affiliate Programs</nuxt-link
                 >
               </li>
@@ -192,13 +192,13 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[22px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
               Resources
             </h3>
 
             <ul>
               <li class="mb-3.5">
-                <nuxt-link to="/" class="text-[16px]">Articles</nuxt-link>
+                <nuxt-link to="/" class="text-[14px]">Articles</nuxt-link>
               </li>
             </ul>
           </div>
