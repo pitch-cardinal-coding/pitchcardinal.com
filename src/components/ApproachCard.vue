@@ -9,7 +9,7 @@
         <div
           class="bg-light-grey border border-light-grey h-[50px] w-[50px] rounded-full inline-grid place-content-center mb-5"
         >
-          &copy;
+          <component :is="approach?.icon" color="#2c364c"></component>
         </div>
       </div>
 

@@ -141,29 +141,43 @@ import Container from "../components/partials/Container.vue";
 import ApproachCard from "../components/ApproachCard.vue";
 import FaqCard from "../components/FaqCard.vue";
 import { ref } from "vue";
+import {
+  RiQuestionLine,
+  RiPuzzleFill,
+  RiLightbulbFlashFill,
+  RiCheckboxCircleLine,
+  RiRocketFill,
+  RiBarChart2Fill,
+} from "@remixicon/vue";
 
 const approachList = ref([
   {
+    icon: RiQuestionLine,
     title: "Discovery",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
   },
   {
+    icon: RiPuzzleFill,
     title: "Strategy",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
   },
   {
+    icon: RiLightbulbFlashFill,
     title: "Concept",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
   },
   {
+    icon: RiCheckboxCircleLine,
     title: "Execution",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur",
   },
   {
+    icon: RiRocketFill,
     title: "Launch",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
   },
   {
+    icon: RiBarChart2Fill,
     title: "Analysis",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
   },
