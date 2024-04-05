@@ -3,7 +3,9 @@
     <Container>
       <div class="py-16 flex justify-center">
         <div class="text-center my-10">
-          <h1 class="mb-4 text-[5rem] font-semibold leading-[120%] text-grey2 font-neue">
+          <h1
+            class="mb-4 text-[5rem] font-semibold leading-[120%] text-grey2 font-neue"
+          >
             Crafting tomorrow <br />
             enterprises, today
           </h1>
@@ -42,7 +44,7 @@
             <h5 class="text-brand-primary text-[16px] mb-1">About us</h5>
             <p class="text-[40px] leading-[180%]">
               Founded in 2020,
-              <span class=" text-brand-primary font-neue">Pitch cardinal</span>
+              <span class="text-brand-primary font-neue">Pitch cardinal</span>
               has cemented its place as a
               <i class="pt-serif-italic">global leader</i> in IT Service and
               Solution. With our dedication to quality, innovation, and
@@ -129,6 +131,58 @@
             <faq-card />
             <faq-card />
             <faq-card />
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-white">
+    <Container>
+      <div class="py-24">
+        <div class="text-center mb-20">
+          <h5 class="mb-4 text-brand-primary font-medium text-[16px]">
+            Portfolio
+          </h5>
+
+          <h2 class="text-[52px] text-grey2 mb-1 font-semibold font-neue">
+            Some of <i class="pt-serif-italic">our</i> works
+          </h2>
+        </div>
+
+        <div class="">
+          <div class="flex items-stretch gap-10 mb-20">
+            <div class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300" style="background-image: url(../assets/images/portfolio-1.webp);"></div>
+            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+                DIGITAL ARTS, ILLUSTRATIONS
+              </div>
+
+              <h1 class="font-neue text-[25px] font-semibold text-grey2 mb-3">
+                Sparks of Elves
+              </h1>
+              <p class="text-grey leading-[180%] mb-10">
+                Service Brading, Marketing Client Umbrella Corp. Industry
+                Pharmaceutics Intro Roof party 90’s glossier farm-to-table
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex items-stretch gap-10 mb-20">
+            <div class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300" style="background-image: url(../assets/images/portfolio-1.webp);"></div>
+            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+                DIGITAL ARTS, ILLUSTRATIONS
+              </div>
+
+              <h1 class="font-neue text-[25px] font-semibold text-grey2 mb-3">
+                Sparks of Elves
+              </h1>
+              <p class="text-grey leading-[180%] mb-10">
+                Service Brading, Marketing Client Umbrella Corp. Industry
+                Pharmaceutics Intro Roof party 90’s glossier farm-to-table
+              </p>
+            </div>
           </div>
         </div>
       </div>
