@@ -15,24 +15,18 @@
         </p>
 
         <div>
-          <h4 class="text-[16px] font-neue font-semibold text-brand-grey mb-6 uppercase">
+          <h4
+            class="text-[16px] font-neue font-semibold text-brand-grey mb-6 uppercase"
+          >
             FOLLOW US IN SOCIAL MEDIA
           </h4>
 
           <div
             class="flex gap-2 sm:gap-4 items-center justify-center md:justify-normal"
           >
-            <div
-              class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
-            >
-              <img
-                src="../../assets/icons/facebook.svg"
-                alt="Facebook icon"
-                class="w-[25px] h-[25px]"
-              />
-            </div>
-
-            <div
+            <a
+              href="https://twitter.com/pitchcardinal"
+              target="_blank"
               class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
             >
               <img
@@ -40,9 +34,11 @@
                 alt="Twitter icon"
                 class="w-[25px] h-[25px]"
               />
-            </div>
+            </a>
 
-            <div
+            <a
+              href="https://github.com/pitch-cardinal-coding"
+              target="_blank"
               class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
             >
               <img
@@ -50,9 +46,11 @@
                 alt="Github icon"
                 class="w-[25px] h-[25px]"
               />
-            </div>
+            </a>
 
-            <div
+            <a
+              href="https://www.linkedin.com/company/pitch-cardinal/about/"
+              target="_blank"
               class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
             >
               <img
@@ -60,9 +58,23 @@
                 alt="Linkedin icon"
                 class="w-[25px] h-[25px]"
               />
-            </div>
+            </a>
 
-            <div
+            <a
+              href=""
+              target="_blank"
+              class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
+            >
+              <img
+                src="../../assets/icons/facebook.svg"
+                alt="Facebook icon"
+                class="w-[25px] h-[25px]"
+              />
+            </a>
+
+            <a
+              href=""
+              target="_blank"
               class="w-[60px] h-[60px] bg-brand-black2 grid place-content-center rounded-full p-2.5"
             >
               <img
@@ -70,7 +82,7 @@
                 alt="Youtube icon"
                 class="w-[25px] h-[25px]"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -80,7 +92,9 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               Portfolio
             </h3>
 
@@ -103,7 +117,9 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               PRICING
             </h3>
 
@@ -115,7 +131,9 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               connect with us
             </h3>
 
@@ -137,7 +155,9 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               Events
             </h3>
 
@@ -155,7 +175,9 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               Corporate
             </h3>
 
@@ -192,7 +214,9 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
+            <h3
+              class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase"
+            >
               Resources
             </h3>
 

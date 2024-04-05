@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="home" class="hero">
     <Container>
       <div class="py-16 flex justify-center">
         <div class="text-center my-10">
@@ -31,7 +31,7 @@
     </Container>
   </section>
 
-  <section class="bg-grey4">
+  <section id="about" class="bg-grey4">
     <Container>
       <div class="py-24 pb-36">
         <div class="flex items-center gap-16 mb-24">
@@ -76,7 +76,7 @@
     </Container>
   </section>
 
-  <section class="bg-white">
+  <section id="approach" class="bg-white">
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">
@@ -105,7 +105,7 @@
     </Container>
   </section>
 
-  <section class="bg-grey4">
+  <section id="services" class="bg-grey4">
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">
@@ -143,7 +143,7 @@
     </Container>
   </section>
 
-  <section class="bg-white">
+  <section id="portfolio" class="bg-white">
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">

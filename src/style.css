@@ -8,6 +8,7 @@
   text-decoration: none;
   outline: none;
   font-family: "Syne", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @font-face {

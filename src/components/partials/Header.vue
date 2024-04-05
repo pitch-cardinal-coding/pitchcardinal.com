@@ -10,36 +10,41 @@
         <ul class="flex gap-4 items-center justify-center">
           <li>
             <a
-              href="/"
+              href="#home"
               class="block py-2 px-3 text-brand-primary font-medium"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="/"
+              href="#about"
               class="block py-2 px-3 text-brand-black font-medium"
               >About Us</a
             >
           </li>
           <li>
-            <a
-              href="/"
-              class="block py-2 px-3 text-brand-black font-medium"
+            <a href="#services" class="block py-2 px-3 text-brand-black font-medium"
               >Services</a
             >
           </li>
           <li>
-            <a
-              href="/"
-              class="block py-2 px-3 text-brand-black font-medium"
-              >Team</a
+            <a href="#portfolio" class="block py-2 px-3 text-brand-black font-medium"
+              >Portfolio</a
             >
           </li>
+          <!-- <li>
+            <a href="#team" class="block py-2 px-3 text-brand-black font-medium"
+              >Team</a
+            >
+          </li> -->
         </ul>
 
         <div>
-          <button class="bg-brand-primary text-white px-6 py-3 rounded-xl font-medium">Contact</button>
+          <button
+            class="bg-brand-primary text-white px-6 py-3 rounded-xl font-medium"
+          >
+            Contact
+          </button>
         </div>
       </div>
     </nav>

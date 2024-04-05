@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         "brand-black": "#1A0004",
+        "brand-black2": "#2B2F44",
         "brand-primary": "#053CCC",
         "light-yellow": "#FDF9EE",
         "light-grey": "#F5F5F5",
