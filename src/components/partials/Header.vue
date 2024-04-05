@@ -7,7 +7,7 @@
           <h2 class="font-bold text-[16px] font-neue">PitchCardinal</h2>
         </div>
 
-        <ul class="flex gap-4 items-center justify-center">
+        <ul class="hidden md:flex gap-4 items-center justify-center">
           <li>
             <a
               href="#home"

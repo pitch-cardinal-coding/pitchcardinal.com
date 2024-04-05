@@ -4,13 +4,14 @@
       <div class="py-16 flex justify-center">
         <div class="text-center my-10">
           <h1
-            class="mb-4 text-[5rem] font-semibold leading-[120%] text-grey2 font-neue"
+            class="mb-4 text-[2.7rem] sm:text-[5rem] font-semibold leading-[120%] text-grey2 font-neue"
           >
-            Crafting tomorrow <br />
+            Crafting tomorrow <br class="hidden md:inline-block" />
             enterprises, today
           </h1>
           <p class="text-grey text-[20px] leading-[180%] mb-8">
-            We believe in delivering excellence, pioneering innovation, <br />
+            We believe in delivering excellence, pioneering innovation,
+            <br class="hidden md:inline-block" />
             and driving sustainable growth for all stakeholders.
           </p>
 
@@ -34,17 +35,23 @@
   <section id="about" class="bg-grey4">
     <Container>
       <div class="py-24 pb-36">
-        <div class="flex items-center gap-16 mb-24">
+        <div
+          class="flex items-start lg:items-center md:flex-nowrap flex-wrap md:justify-start justify-center gap-16 mb-24"
+        >
           <img
             src="../assets/images/about2.png"
             class="w-[300px] h-[300px]"
             alt=""
           />
           <div class="text-grey2">
-            <h5 class="text-brand-primary text-[16px] mb-1 font-neue">
+            <h5
+              class="text-brand-primary text-[16px] mb-1 font-neue text-center md:text-left"
+            >
               About us
             </h5>
-            <p class="text-[40px] leading-[180%] font-neue">
+            <p
+              class="text-[22px] md:text-[40px] leading-[180%] font-neue text-center md:text-left"
+            >
               Founded in 2020,
               <span class="text-brand-primary font-neue font-semibold"
                 >Pitch cardinal</span
@@ -84,16 +91,17 @@
             Approach
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-neue font-semibold">
+          <h2 class="text-[28px] md:text-[52px] text-grey2 mb-1 font-neue font-semibold">
             Our <i class="pt-serif-italic">Approach</i>
           </h2>
           <p class="text-[18px] text-grey font-medium">
-            we follow a six-step process to ensure we meet our clients’ <br />
+            we follow a six-step process to ensure we meet our clients’
+            <br class="hidden md:inline-block" />
             needs and exceed their expectations
           </p>
         </div>
 
-        <div class="grid grid-cols-3 gap-6 mb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           <approach-card
             v-for="(approach, index) in approachList"
             :key="approach.title"
@@ -113,11 +121,12 @@
             Services and Solutions
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-semibold font-neue">
+          <h2 class="text-[28px] md:text-[52px] text-grey2 mb-1 font-semibold font-neue">
             Delivering <i class="pt-serif-italic">value</i> across domains
           </h2>
           <p class="text-[18px] text-grey font-medium">
-            At pitch cardinal we offer a comprehensive suite of services <br />
+            At pitch cardinal we offer a comprehensive suite of services
+            <br class="hidden md:inline-block" />
             to help your brand shinme
           </p>
         </div>
@@ -151,19 +160,21 @@
             Portfolio
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-semibold font-neue">
+          <h2 class="text-[28px] md:text-[52px] text-grey2 mb-1 font-semibold font-neue">
             Some of <i class="pt-serif-italic">our</i> works
           </h2>
         </div>
 
         <div class="">
-          <div class="flex items-stretch gap-10 mb-20">
+          <div class="flex items-stretch flex-wrap md:flex-nowrap gap-10 mb-20">
             <div
-              class="flex w-8/12 rounded-2xl bg-cover bg-center bg-no-repeat bg-red-300"
+              class="flex w-full md:w-8/12 h-[500px] md:h-auto rounded-2xl bg-cover bg-center bg-no-repeat bg-red-300"
               :style="`background-image: url(${PortfolioImg1})`"
             ></div>
-            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
-              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+            <div class="w-full md:w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div
+                class="p-4 px-6 rounded-3xl border mb-10 md:mb-60 inline-block"
+              >
                 DIGITAL ARTS, ILLUSTRATIONS
               </div>
 
@@ -177,13 +188,15 @@
             </div>
           </div>
 
-          <div class="flex items-stretch gap-10 mb-20">
+          <div class="flex items-stretch flex-wrap md:flex-nowrap gap-10 mb-20">
             <div
-              class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300"
+              class="flex w-full md:w-8/12 h-[500px] md:h-auto rounded-2xl bg-cover bg-no-repeat bg-red-300"
               :style="`background-image: url(${PortfolioImg2})`"
             ></div>
-            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
-              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+            <div class="w-full md:w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div
+                class="p-4 px-6 rounded-3xl border mb-10 md:mb-60 inline-block"
+              >
                 DIGITAL ARTS, ILLUSTRATIONS
               </div>
 
@@ -197,13 +210,15 @@
             </div>
           </div>
 
-          <div class="flex items-stretch gap-10 mb-20">
+          <div class="flex items-stretch flex-wrap md:flex-nowrap gap-10 mb-20">
             <div
-              class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300"
+              class="flex w-full md:w-8/12 h-[500px] md:h-auto rounded-2xl bg-cover bg-no-repeat bg-red-300"
               :style="`background-image: url(${PortfolioImg3})`"
             ></div>
-            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
-              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+            <div class="w-full md:w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div
+                class="p-4 px-6 rounded-3xl border mb-10 md:mb-60 inline-block"
+              >
                 DIGITAL ARTS, ILLUSTRATIONS
               </div>
 

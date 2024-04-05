@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-[#111827] text-light-grey">
-    <Container class="flex gap-10 py-20">
+    <Container class="flex flex-wrap lg:flex-nowrap justify-center lg:justify-normal gap-10 py-20">
       <div class="w-full md:w-1/2 text-center md:text-left">
         <img
           src="../../assets/images/logo.png"
