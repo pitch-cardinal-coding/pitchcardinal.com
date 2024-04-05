@@ -3,7 +3,7 @@
     <div class="bg-brand-primary h-[20px]"></div>
     <div class="bg-white rounded-2xl p-8 relative z-2 -top-[14px]">
       <div class="flex items-center justify-between">
-        <h3 class="font-medium text-brand-primary text-[25px]">
+        <h3 class="font-medium text-brand-primary text-[25px] font-neue">
           {{ number < 10 ? `0` + number : number }}
         </h3>
         <div
@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <h1 class="mb-3 text-grey2 text-[26px] font-medium">
+      <h1 class="mb-3 text-grey2 text-[26px] font-semibold font-neue">
         {{ approach?.title }}
       </h1>
       <p class="text-grey text-[16px] leading-[170%] mb-5">

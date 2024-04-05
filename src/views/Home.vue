@@ -3,7 +3,7 @@
     <Container>
       <div class="py-16 flex justify-center">
         <div class="text-center my-10">
-          <h1 class="mb-4 text-[5rem] font-semibold leading-[120%] text-grey2">
+          <h1 class="mb-4 text-[5rem] font-semibold leading-[120%] text-grey2 font-neue">
             Crafting tomorrow <br />
             enterprises, today
           </h1>
@@ -42,7 +42,7 @@
             <h5 class="text-brand-primary text-[16px] mb-1">About us</h5>
             <p class="text-[40px] leading-[180%]">
               Founded in 2020,
-              <i class="pt-serif-italic text-brand-primary">Pitch cardinal</i>
+              <span class=" text-brand-primary font-neue">Pitch cardinal</span>
               has cemented its place as a
               <i class="pt-serif-italic">global leader</i> in IT Service and
               Solution. With our dedication to quality, innovation, and
@@ -78,7 +78,7 @@
             Approach
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-medium">
+          <h2 class="text-[52px] text-grey2 mb-1 font-neue font-semibold">
             Our <i class="pt-serif-italic">Approach</i>
           </h2>
           <p class="text-[18px] text-grey font-medium">
@@ -107,7 +107,7 @@
             Services and Solutions
           </h5>
 
-          <h2 class="text-[52px] text-grey2 mb-1 font-medium">
+          <h2 class="text-[52px] text-grey2 mb-1 font-semibold font-neue">
             Delivering <i class="pt-serif-italic">value</i> across domains
           </h2>
           <p class="text-[18px] text-grey font-medium">

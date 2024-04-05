@@ -8,7 +8,7 @@
         aria-expanded="true"
         aria-controls="accordion-flush-body-1"
       >
-        <span class="text-[20px] text-grey2">What is Flowbite?</span>
+        <span class="text-[20px] text-grey2 font-neue font-semibold">What is Flowbite?</span>
         <svg
           data-accordion-icon
           class="w-3 h-3 rotate-180 shrink-0"

@@ -10,6 +10,26 @@
   font-family: "Syne", sans-serif;
 }
 
+@font-face {
+  font-family: 'Neue Machina';
+  src: local('Neue Machina'), url('./assets/fonts/NeueMachina-Light.woff');
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: local('Neue Machina'), url('./assets/fonts/NeueMachina-Regular.woff');
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: local('Neue Machina'), url('./assets/fonts/NeueMachina-Ultrabold.woff');
+  font-weight: 800;
+}
+
+.font-neue {
+font-family: 'Neue Machina', sans-serif !important;
+}
+
 .pt-serif-italic {
   font-family: "PT Serif", serif;
   font-weight: 400;

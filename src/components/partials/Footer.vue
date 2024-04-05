@@ -8,14 +8,14 @@
           alt="LOGO"
         />
 
-        <p class="mb-[61px] text-white text-[16px] leading-[24px]">
-          Thanks to fine people like you, Vue School can proudly
+        <p class="mb-[40px] text-white text-[16px] leading-[35px]">
+          Thanks to fine people like you, pitch cardinal can proudly
           <br hidden md:inline-block />
           sponsor Evan and the future of Vue.js by being a Platinum Patreon
         </p>
 
         <div>
-          <h4 class="text-[22px] capitalize text-brand-grey mb-9">
+          <h4 class="text-[16px] font-neue font-semibold text-brand-grey mb-6 uppercase">
             FOLLOW US IN SOCIAL MEDIA
           </h4>
 
@@ -80,7 +80,7 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               Portfolio
             </h3>
 
@@ -103,7 +103,7 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               PRICING
             </h3>
 
@@ -115,7 +115,7 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               connect with us
             </h3>
 
@@ -137,7 +137,7 @@
           class="block sm:flex justify-between items-start w-full md:w-auto md:block text-center sm:text-left"
         >
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               Events
             </h3>
 
@@ -155,7 +155,7 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               Corporate
             </h3>
 
@@ -192,7 +192,7 @@
           </div>
 
           <div class="mb-12">
-            <h3 class="text-[18px] text-brand-grey font-medium mb-5 uppercase">
+            <h3 class="text-[16px] font-neue font-semibold text-brand-grey mb-5 uppercase">
               Resources
             </h3>
 
