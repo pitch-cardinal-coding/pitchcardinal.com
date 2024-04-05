@@ -54,7 +54,7 @@
             >
               Founded in 2020,
               <span class="text-brand-primary font-neue font-semibold"
-                >Pitch cardinal</span
+                >Pitch Cardinal</span
               >
               has cemented its place as a
               <i class="pt-serif-italic">global leader</i> in IT Service and
@@ -125,7 +125,7 @@
             Delivering <i class="pt-serif-italic">value</i> across domains
           </h2>
           <p class="text-[18px] text-grey font-medium">
-            At pitch cardinal we offer a comprehensive suite of services
+            At Pitch Cardinal we offer a comprehensive suite of services
             <br class="hidden md:inline-block" />
             to help your brand shinme
           </p>

@@ -9,9 +9,9 @@
         />
 
         <p class="mb-[40px] text-white text-[16px] leading-[35px]">
-          Thanks to fine people like you, pitch cardinal can proudly
+          Thanks to fine people like you, Pitch Cardinal can proudly
           <br hidden md:inline-block />
-          sponsor Evan and the future of Vue.js by being a Platinum Patreon
+          sponsor developers and the future of enterprises by being a Platinum Patreon
         </p>
 
         <div>
