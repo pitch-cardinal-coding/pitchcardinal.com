@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between">
         <div class="flex items-end gap-3 flex-nowrap">
           <img src="../../assets/images/logo.png" class="w-[20px]" alt="" />
-          <h2 class="font-bold text-[18px]">PitchCardinal</h2>
+          <h2 class="font-bold text-[16px] font-neue">PitchCardinal</h2>
         </div>
 
         <ul class="flex gap-4 items-center justify-center">

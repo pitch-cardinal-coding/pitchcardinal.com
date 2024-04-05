@@ -41,10 +41,14 @@
             alt=""
           />
           <div class="text-grey2">
-            <h5 class="text-brand-primary text-[16px] mb-1">About us</h5>
-            <p class="text-[40px] leading-[180%]">
+            <h5 class="text-brand-primary text-[16px] mb-1 font-neue">
+              About us
+            </h5>
+            <p class="text-[40px] leading-[180%] font-neue">
               Founded in 2020,
-              <span class="text-brand-primary font-neue">Pitch cardinal</span>
+              <span class="text-brand-primary font-neue font-semibold"
+                >Pitch cardinal</span
+              >
               has cemented its place as a
               <i class="pt-serif-italic">global leader</i> in IT Service and
               Solution. With our dedication to quality, innovation, and
@@ -76,7 +80,7 @@
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">
-          <h5 class="mb-4 text-brand-primary font-medium text-[16px]">
+          <h5 class="mb-4 text-brand-primary font-medium text-[16px] font-neue">
             Approach
           </h5>
 
@@ -105,7 +109,7 @@
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">
-          <h5 class="mb-4 text-brand-primary font-medium text-[16px]">
+          <h5 class="mb-4 text-brand-primary font-medium text-[16px] font-neue">
             Services and Solutions
           </h5>
 
@@ -125,12 +129,14 @@
             data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
             data-inactive-classes="text-gray-500 dark:text-gray-400"
           >
-            <faq-card />
-            <faq-card />
-            <faq-card />
-            <faq-card />
-            <faq-card />
-            <faq-card />
+            <faq-card
+              v-for="(service, index) in services"
+              :key="service.title"
+              :service="service"
+              :index="index"
+              :selected="selectedService"
+              @update-selected="selectedService = index"
+            />
           </div>
         </div>
       </div>
@@ -141,7 +147,7 @@
     <Container>
       <div class="py-24">
         <div class="text-center mb-20">
-          <h5 class="mb-4 text-brand-primary font-medium text-[16px]">
+          <h5 class="mb-4 text-brand-primary font-medium text-[16px] font-neue">
             Portfolio
           </h5>
 
@@ -152,7 +158,10 @@
 
         <div class="">
           <div class="flex items-stretch gap-10 mb-20">
-            <div class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300" style="background-image: url(../assets/images/portfolio-1.webp);"></div>
+            <div
+              class="flex w-8/12 rounded-2xl bg-cover bg-center bg-no-repeat bg-red-300"
+              :style="`background-image: url(${PortfolioImg1})`"
+            ></div>
             <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
               <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
                 DIGITAL ARTS, ILLUSTRATIONS
@@ -167,9 +176,32 @@
               </p>
             </div>
           </div>
-          
+
           <div class="flex items-stretch gap-10 mb-20">
-            <div class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300" style="background-image: url(../assets/images/portfolio-1.webp);"></div>
+            <div
+              class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300"
+              :style="`background-image: url(${PortfolioImg2})`"
+            ></div>
+            <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
+              <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
+                DIGITAL ARTS, ILLUSTRATIONS
+              </div>
+
+              <h1 class="font-neue text-[25px] font-semibold text-grey2 mb-3">
+                Sparks of Elves
+              </h1>
+              <p class="text-grey leading-[180%] mb-10">
+                Service Brading, Marketing Client Umbrella Corp. Industry
+                Pharmaceutics Intro Roof party 90’s glossier farm-to-table
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-stretch gap-10 mb-20">
+            <div
+              class="flex w-8/12 rounded-2xl bg-cover bg-no-repeat bg-red-300"
+              :style="`background-image: url(${PortfolioImg3})`"
+            ></div>
             <div class="w-4/12 bg-light-grey p-8 rounded-2xl">
               <div class="p-4 px-6 rounded-3xl border mb-60 inline-block">
                 DIGITAL ARTS, ILLUSTRATIONS
@@ -194,6 +226,9 @@
 import Container from "../components/partials/Container.vue";
 import ApproachCard from "../components/ApproachCard.vue";
 import FaqCard from "../components/FaqCard.vue";
+import PortfolioImg1 from "../assets/images/portfolio-1.webp";
+import PortfolioImg2 from "../assets/images/portfolio-2.webp";
+import PortfolioImg3 from "../assets/images/portfolio-3.webp";
 import { ref } from "vue";
 import {
   RiQuestionLine,
@@ -204,6 +239,7 @@ import {
   RiBarChart2Fill,
 } from "@remixicon/vue";
 
+const selectedService = ref(0);
 const approachList = ref([
   {
     icon: RiQuestionLine,
@@ -234,6 +270,29 @@ const approachList = ref([
     icon: RiBarChart2Fill,
     title: "Analysis",
     desc: "Id dolor varius nisl duis vel cras sit purus in. Tellus faucibus sagittis mattis vitae arcu aliquet at consectetur. Maecenas purus turpis augue viverra mi ut viverra. ",
+  },
+]);
+
+const services = ref([
+  {
+    title: "Cloud Architecture and Management",
+    desc: "",
+  },
+  {
+    title: "Software Development",
+    desc: "",
+  },
+  {
+    title: "Server Management and Configuration",
+    desc: "",
+  },
+  {
+    title: "Digital Marketing",
+    desc: "",
+  },
+  {
+    title: "Product Design",
+    desc: "",
   },
 ]);
 </script>
