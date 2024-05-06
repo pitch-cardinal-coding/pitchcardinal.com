@@ -45,7 +45,7 @@
 
         <div>
           <button
-            class="hidden md:inline-blockbg-brand-primary text-white px-6 py-3 rounded-xl font-medium"
+            class="hidden md:inline-block bg-brand-primary text-white px-6 py-3 rounded-xl font-medium"
           >
             Contact
           </button>
