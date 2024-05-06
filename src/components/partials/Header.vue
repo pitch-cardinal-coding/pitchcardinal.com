@@ -125,5 +125,5 @@
 import Container from "./Container.vue";
 import { ref } from "vue";
 
-const openMenu = ref(true);
+const openMenu = ref(false);
 </script>
